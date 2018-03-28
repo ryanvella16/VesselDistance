@@ -66,8 +66,6 @@ xhr.onload = function () {
 xhr.send();
 
 jQuery(function(){
-  $("#txt_name").keyup(function() {
-    var value = $("#txt_name").val(); 
-    $("#myDiv").text(value);
-  });
+  
+  );
 });
